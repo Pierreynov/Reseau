@@ -19,7 +19,8 @@ Gateway
 
 
 Graphique 
-    ![image](./Capture.PNG)
+    ![image](./Capture.PNG)(Voir Image 1)
+    
 
 
 La Gateway de Ynov sert à sortir du réseau Ynov, pour pouvoir aller sur d'autres réseaux notamment internet par exemple.
@@ -29,7 +30,7 @@ Modification des informations
     ![image](./Modif%20ip.PNG)
 
 
-Il est possible qu'un autre utilisateur ait déjà choisi cette même adresse IP. C'est donc pour cela que l'on perd notre connexion internet car il ne peux pas y avoir 2 utilisateurs connéctés à un même réseau wifi avec la même adresse.
+Il est possible qu'un autre utilisateur ait déjà choisi cette même adresse IP. C est donc pour cela que l'on perd notre connexion internet car il ne peux pas y avoir 2 utilisateurs connéctés à un même réseau wifi avec la même adresse.
 
 
 
@@ -51,7 +52,7 @@ II / Exploration locale en duo
             Réponse de 192.168.129.2 : octets=32 temps=2 ms TTL=128
             Réponse de 192.168.129.2 : octets=32 temps=2 ms TTL=128
         
-        Ce qui prouve bien que l'on a réussi à entrer en contact avec l'autre machine.
+        Ce qui prouve bien que l on a réussi à entrer en contact avec l autre machine.
 
         On utilise la commande arp -a pour afficher la table ARP ci-dessous :
             Interface : 192.168.129.1 --- 0x14
@@ -67,8 +68,10 @@ II / Exploration locale en duo
 
     4. Utilisation d'un des deux comme gateway 
 
-    On déconnecte un des deux PC du réseau internet, après avoir défini la passerelle comme étant l'adresse ip de l'autre PC, on peut de nouveau se connecter au réseau internet. 
-        ![image](./sharinginternet.PNG)
+    On déconnecte un des deux PC du réseau internet, après avoir défini la passerelle comme étant l adresse ip de l autre PC, on peut de nouveau se connecter au réseau internet. 
+
+![image](./sharinginternet.PNG)
+   
     En démontre le résultat de la commande "ping 1.1.1.1" ou "ping 8.8.8.8" :
         Envoi d’une requête 'Ping'  1.1.1.1 avec 32 octets de données :
         Réponse de 1.1.1.1 : octets=32 temps=27 ms TTL=54
@@ -82,7 +85,8 @@ II / Exploration locale en duo
         Minimum = 26ms, Maximum = 29ms, Moyenne = 27ms
 
     On peut bien voir grâce à Wireshark que le ping de la machine non connectée directement à internet passe par l'autre machine reliée par ethernet. 
-        ![image](./ping8.8.PNG) 
+
+![image](./ping8.8.PNG) 
 
 
     5. Petit chat privé
@@ -158,6 +162,11 @@ IV / Wireshark
 
     Avec l'utilisation de Wireshark on peut observer les trames qui circulent des différentes cartes réseaux. 
     On peut ici voir le resultat d'un ping vers une passerelle 
-        ![image](./wireshark%20ping.PNG)
+        
+![image](./wireshark%20ping.PNG)
+        
     Ou encore le netcat entre 2 PC branchés via RJ45 
-        ![image](./netcatshark.PNG)
+        
+![image](./sharinginternet.PNG)
+
+
