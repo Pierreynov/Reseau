@@ -1,8 +1,7 @@
 I / Exploration Locale en Solo 
 
-1.
-Infos des cartes réseau de ce Pc
-    Commande : ipconfig /all
+1. Infos des cartes réseau de ce Pc
+    'Commande : "ipconfig /all"
     Wifi :
         Description. . . . . . . . . . . . . . : Realtek RTL8822BE 802.11ac PCIe Adapter
         Adresse physique . . . . . . . . . . . : D8-9C-67-61-8C-B5
@@ -14,8 +13,8 @@ Infos des cartes réseau de ce Pc
         Ici la carte ethernet ne possède pas d'adresse IP
 
 Gateway
-    - commande : ipconfig /all
-    Passerelle par défaut. . . . . . . . . : 10.33.19.254
+    - commande : "ipconfig /all"
+    Passerelle par défaut. . . . . . . . . : 10.33.19.254'
 
 
 Graphique 
