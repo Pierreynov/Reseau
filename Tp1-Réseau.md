@@ -2,7 +2,7 @@ I / Exploration Locale en Solo
 
 1.
 Infos des cartes réseau de ce Pc
-    - commande : ipconfig /all
+    Commande : ipconfig /all
     Wifi :
         Description. . . . . . . . . . . . . . : Realtek RTL8822BE 802.11ac PCIe Adapter
         Adresse physique . . . . . . . . . . . : D8-9C-67-61-8C-B5
